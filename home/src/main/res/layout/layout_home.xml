@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <com.youth.banner.Banner
+                android:id="@+id/frag_home_banner"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/banner_height" />
+
+<!--            <ViewFlipper-->
+<!--                android:id="@+id/frag_home_vf"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:background="#CCC"-->
+<!--                android:inAnimation="@anim/anim_in"-->
+<!--                android:outAnimation="@anim/anim_out" />-->
+
+            <include
+                android:layout_marginTop="3dp"
+                layout="@layout/layout_r1"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/all_h" />
+
+            <ImageView
+                android:scaleType="fitXY"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:src="@drawable/fj" />
+
+            <GridLayout
+                android:padding="10dp"
+                android:columnCount="2"
+                android:rowCount="2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/background_r2_s"
+                    android:layout_width="@dimen/child_width"
+                    android:layout_height="@dimen/child_height">
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/background_r2_s_f"
+                    android:layout_width="@dimen/child_width"
+                    android:layout_height="@dimen/child_height">
+                </LinearLayout>
+                <LinearLayout
+                    android:background="@drawable/background_r2_s_f"
+                    android:layout_width="@dimen/child_width"
+                    android:layout_height="@dimen/child_height">
+                </LinearLayout>
+                <LinearLayout
+                    android:background="@drawable/background_r2_s"
+                    android:layout_width="@dimen/child_width"
+                    android:layout_height="@dimen/child_height">
+                </LinearLayout>
+
+            </GridLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

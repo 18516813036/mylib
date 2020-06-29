@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_home"
+        android:icon="@mipmap/home"
+        android:title="主页"/>
+    <item android:id="@+id/menu_finalce"
+        android:icon="@mipmap/finalce"
+        android:title="理财"/>
+    <item android:id="@+id/menu_account"
+        android:icon="@mipmap/account"
+        android:title="账户"/>
+    <item android:id="@+id/menu_more"
+        android:icon="@mipmap/more"
+        android:title="更多"/>
+</menu>

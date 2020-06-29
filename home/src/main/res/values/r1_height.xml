@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="all_h">144dp</dimen>
+    <dimen name="content_h">120dp</dimen>
+    <dimen name="margin">12dp</dimen>
+    <dimen name="radius_s">40dp</dimen>
+    <dimen name="radius">20dp</dimen>
+
+    <dimen name="child_width">191dp</dimen>
+    <dimen name="child_height">120dp</dimen>
+</resources>
